@@ -283,7 +283,6 @@ header{
 .section-4-conteudo a:hover{
     color: #FFF;
     background-color: #6fd66c;
-    width: 50%;
 }
 /* SECTION-5 */
 
@@ -511,9 +510,37 @@ footer .footer-flex a{
 
 /* CONTATO */
 
+.section-contato{
+    padding-left: 2rem;
+}
+
+.section-contato-texto{
+    float: left;
+    
+}
+
+.section-contato-texto h2{
+    margin-top: 5rem;
+    font-size: 3em;
+    font-weight: normal;
+    color: #425140;
+}
+
+.section-contato-texto h3{
+    margin: 1.5rem 0;
+    font-size: 2em;
+    font-weight: normal;
+    color: #6fd66c;
+}
+
 .contato{
-    margin-top: 8rem;
+    margin-top: -25rem;
     float: right;
+    width: 50%;
+}
+
+.contato-form{
+    width: 30%;
 }
 
 .contato-form input:not(.enviar){
